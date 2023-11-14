@@ -6,9 +6,32 @@
 //
 
 #include <iostream>
+#include "clockType.h"
+using namespace std;
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+/*int *funcArray()
+{
+    int *arr = new int [3]{1,2,3};
+    return arr;
+}
+*/
+
+int main(){
+    
+/*    int *aryPtr = funcArray();
+    cout<<aryPtr[0];
+    cout<<aryPtr[1];
+    cout<<aryPtr[2];
+    
+    delete[] aryPtr;
+ */
+    clockType myClock;
+    myClock.setTime(3, 48, 52);
+    myClock.printTime();
+    
+    
+    
+    
+    
     return 0;
 }
